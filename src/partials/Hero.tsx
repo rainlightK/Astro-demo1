@@ -1,7 +1,6 @@
 import {
   GradientText,
   HeroAvatar,
-  HeroSocial,
   Section,
 } from 'astro-boilerplate-components';
 
@@ -10,33 +9,31 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          不喜欢奶龙的小朋友们你们好，我是 <GradientText>BB威</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
+          奶龙全集地址:{''}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://www.bilibili.com/bangumi/play/ep453031?spm_id_from=333.337.0.0&from_spmid=666.25.episode.0"
+          >
+            奶龙
           </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
         </>
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          className="h-80 w-80"
+          src="/assets/images/anon.gif"
           alt="Avatar image"
           loading="lazy"
         />
       }
       socialButtons={
         <>
-          <a href="/">
+          {/* <a href="/">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
@@ -59,7 +56,7 @@ const Hero = () => (
               src="/assets/images/youtube-icon.png"
               alt="Youtube icon"
             />
-          </a>
+          </a> */}
         </>
       }
     />
